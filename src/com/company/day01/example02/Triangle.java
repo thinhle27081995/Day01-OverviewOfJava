@@ -21,7 +21,7 @@ public class Triangle {
         System.out.println("The a: "+a);
         System.out.println("The b: "+b);
         System.out.println("The c: "+c);
-        System.out.printf("P = %.2f",perimeter());
+        System.out.printf("P = %.2f%n",perimeter());
         System.out.printf("S = %.2f",area());
     }
     public static float perimeter(){
